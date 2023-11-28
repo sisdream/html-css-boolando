@@ -56,6 +56,8 @@ li a{
 .card{
     width: calc(100% / 3 - 60px);
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img{
@@ -78,7 +80,7 @@ li a{
 }
 
 span{
-    display: block;
+   
     font-weight: bold;
     font-size: 12px;
 }
@@ -90,4 +92,9 @@ span{
 
 .prezzo{
     color: #ff0000;
+}
+
+.fix{
+    text-decoration: line-through;
+    color: #000;
 }
