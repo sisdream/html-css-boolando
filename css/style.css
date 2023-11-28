@@ -33,6 +33,7 @@ li a{
     color: #ffe8d8;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .logo img{
@@ -41,6 +42,7 @@ li a{
 
 .icone{
     color: #ffe8d8 ;
+    cursor: pointer;
 }
 
 /* main con card */
@@ -55,23 +57,77 @@ li a{
 
 .card{
     width: calc(100% / 3 - 60px);
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
-.card img{
+.card-img{
+    background-size: cover;
     height: 500px;
-    object-fit: cover;
+    width: 380px;
     display: block;
     margin: 0 auto;
 }
+
+/* card img e hover */
+
+.card-one{
+    background-image: url(../img/1.webp);
+}
+
+.card-one:hover{
+    background-image:url(../img/1b.webp);
+}
+
+.card-two{
+    background-image: url(../img/2.webp);
+}
+
+.card-two:hover{
+    background-image:url(../img/2b.webp);  
+}
+
+.card-three{
+    background-image: url(../img/3.webp);
+}
+
+.card-three:hover{
+    background-image:url(../img/3b.webp);
+}
+
+.card-four{
+    background-image: url(../img/4.webp);
+}
+
+.card-four:hover{
+    background-image:url(../img/4b.webp);  
+}
+
+.card-five{
+    background-image: url(../img/5.webp);
+}
+
+.card-five:hover{
+    background-image:url(../img/5b.webp);
+}
+
+.card-six{
+    background-image: url(../img/6.webp);
+}
+
+.card-six:hover{
+    background-image:url(../img/6b.webp);  
+}
+
+/* didascalie */
 
 .heart{
     background-color: #ffffff;
     position: relative;
     bottom: 90%;
-    left: 88%;
+    left: 97%;
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -97,4 +153,16 @@ span{
 .fix{
     text-decoration: line-through;
     color: #000;
+}
+
+/* footer */
+
+.footer{
+    height: 60px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
 }
