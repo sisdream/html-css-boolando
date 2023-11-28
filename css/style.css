@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbo{
+    height: 60px;
+    background-color: #ff6900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffe8d8;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 7rem;
+}
+
+.icone{
+    color: #ffe8d8 ;
+}
