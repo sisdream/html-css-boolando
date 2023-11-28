@@ -60,7 +60,7 @@ li a{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    cursor: pointer;
+    position: relative;
 }
 
 .card-img{
@@ -69,6 +69,7 @@ li a{
     width: 380px;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 /* card img e hover */
@@ -133,6 +134,11 @@ li a{
     width: 40px;
     text-align: center;
     font-size: 2rem;
+    cursor: pointer;
+}
+
+.heart:hover{
+    color: #ff0000;
 }
 
 span{
@@ -155,14 +161,48 @@ span{
     color: #000;
 }
 
+.sales{
+    position: absolute;
+    bottom: 130px;
+}
+
+.sconto{
+    background-color: #ff0000;
+    padding: 5px;
+    color: #fff;
+}
+
+.materiali{
+    background-color: #007f00;
+    padding: 5px;
+    color: #fff;
+}
+
 /* footer */
 
 .footer{
     height: 60px;
     background-color: #1a1a1a;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
-    width: 100%;
+    color: #fff;
+}
+
+.footer-logo{
+    margin: 0 150px;
+}
+
+.info a{
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-icon{
+    margin: 0 150px;
+}
+
+.icone-footer i{
+    margin-top: 10;
+    margin-right: 5px;
 }
